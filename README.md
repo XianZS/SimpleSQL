@@ -1,5 +1,7 @@
 # SimpleSQL
 
+Based on SQLite
+
 ## Design Phase Division
 
 ### Phase One: Requirements Analysis and Architecture Design
