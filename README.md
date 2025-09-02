@@ -1,6 +1,7 @@
 # SimpleSQL
 
 Based on SQLite
+![架构图-1.png](src/notes/picture/%E6%9E%B6%E6%9E%84%E5%9B%BE-1.png)
 
 ## Design Phase Division
 
@@ -57,7 +58,7 @@ Based on SQLite
 4. Conduct security audits to prevent SQL injection and other security issues.  
    **Completion Criteria**:
 
-- Test coverage report (>90%)
+- Test coverage report
 - Performance benchmark results
 - Security audit report
 
