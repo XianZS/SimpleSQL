@@ -75,3 +75,5 @@ Based on SQLite
 - Complete documentation website
 - Packaging configuration files
 - Sample code repository  
+
+[架构解读.md](src/notes/words/%E6%9E%B6%E6%9E%84%E8%A7%A3%E8%AF%BB.md)
