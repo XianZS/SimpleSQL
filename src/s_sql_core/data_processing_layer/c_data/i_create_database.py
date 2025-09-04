@@ -13,8 +13,16 @@ from abc import ABC, abstractmethod
 
 
 class create_database(ABC):
+    """
+    ## Interface Method
+
+    - cd(self) -> tuple
+    - set_database_name(self,database_name) -> tuple
+    - other -> Any
+    """
+
     @abstractmethod
-    def cd(self) -> tuple:
+    def create_database(self) -> tuple:
         """
         create database method
         :return: (true/false,database_name)
@@ -28,7 +36,18 @@ class create_database(ABC):
         """
 
     @abstractmethod
-    def other(self):
+    def set_database_route(self, database_route: str) -> tuple:
+        """
+        set database route method
+        :return: (true/false,database_route)
+        """
+
+    @abstractmethod
+    def pr(self, *args, **kwargs) -> tuple:
+        """ print something """
+
+    @abstractmethod
+    def other(self) -> Any:
         """
         Temporary code
         :return: None
