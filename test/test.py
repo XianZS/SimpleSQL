@@ -2,8 +2,10 @@
 """
 # Basic Information Of The File
     @Project : SimpleSQL 
-    @File    : dpl_c_main.py
+    @File    : test.py
     @Author  : XianZS
 # Meaning
 """
+from datetime import datetime
 
+print(f"{datetime.year},{datetime.month},{datetime.second}")

@@ -2,8 +2,7 @@
 """
 # Basic Information Of The File
     @Project : SimpleSQL 
-    @File    : dpl_c_main.py
+    @File    : set_name.py
     @Author  : XianZS
 # Meaning
 """
-
