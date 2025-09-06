@@ -19,8 +19,8 @@ class IRoute(ABC):
     @abstractmethod
     def type_route(self, route: str) -> tuple:
         """
-        绝对路径:1
-        相对路径:2
+        绝对路径:true
+        相对路径:false
         :return: (route_type,true/false)
         """
 
