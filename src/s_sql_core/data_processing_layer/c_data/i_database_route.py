@@ -2,14 +2,14 @@
 """
 # Basic Information Of The File
     @Project : SimpleSQL 
-    @File    : i_route.py
+    @File    : i_database_route.py
     @Author  : XianZS
 # Meaning
 """
 from abc import ABC, abstractmethod
 
 
-class IRoute(ABC):
+class IDataBaseRoute(ABC):
     @abstractmethod
     def judge_route(self, route: str) -> tuple:
         """
